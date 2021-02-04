@@ -18,7 +18,7 @@ export const SearchPage = () => {
 
     //Download array data
     useEffect(() => {
-        let Data = axios.get('/flights.json').then(responce => {
+        let Data = axios.get('https://alexeysparrow.github.io/air-travel/flights.json').then(responce => {
             setState(responce.data.result.flights)
         })
         setState(Data)
