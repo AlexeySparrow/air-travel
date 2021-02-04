@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/air-travel/static/css/main.aae008c3.chunk.css",
+    "main.js": "/air-travel/static/js/main.86ce0557.chunk.js",
+    "main.js.map": "/air-travel/static/js/main.86ce0557.chunk.js.map",
+    "runtime-main.js": "/air-travel/static/js/runtime-main.d0f6156d.js",
+    "runtime-main.js.map": "/air-travel/static/js/runtime-main.d0f6156d.js.map",
+    "static/js/2.eb2d190f.chunk.js": "/air-travel/static/js/2.eb2d190f.chunk.js",
+    "static/js/2.eb2d190f.chunk.js.map": "/air-travel/static/js/2.eb2d190f.chunk.js.map",
+    "static/js/3.6d13902f.chunk.js": "/air-travel/static/js/3.6d13902f.chunk.js",
+    "static/js/3.6d13902f.chunk.js.map": "/air-travel/static/js/3.6d13902f.chunk.js.map",
+    "index.html": "/air-travel/index.html",
+    "static/css/main.aae008c3.chunk.css.map": "/air-travel/static/css/main.aae008c3.chunk.css.map",
+    "static/js/2.eb2d190f.chunk.js.LICENSE.txt": "/air-travel/static/js/2.eb2d190f.chunk.js.LICENSE.txt",
+    "static/media/App.module.scss": "/air-travel/static/media/background.cc0e3dfa.png",
+    "static/media/logo-LOT.408a9d1c.png": "/air-travel/static/media/logo-LOT.408a9d1c.png",
+    "static/media/logo-aeroflot.7d262cae.png": "/air-travel/static/media/logo-aeroflot.7d262cae.png",
+    "static/media/logo-air-france.cdcab060.png": "/air-travel/static/media/logo-air-france.cdcab060.png",
+    "static/media/logo-airbaltic.93fffe6b.png": "/air-travel/static/media/logo-airbaltic.93fffe6b.png",
+    "static/media/logo-alitalia.f136acd4.png": "/air-travel/static/media/logo-alitalia.f136acd4.png",
+    "static/media/logo-brussels-airlines.ed58c1a9.png": "/air-travel/static/media/logo-brussels-airlines.ed58c1a9.png",
+    "static/media/logo-finnair.f0c9be7d.png": "/air-travel/static/media/logo-finnair.f0c9be7d.png",
+    "static/media/logo-klm.1c8cb1f1.png": "/air-travel/static/media/logo-klm.1c8cb1f1.png",
+    "static/media/pegasus-large-logo.ccd2b412.png": "/air-travel/static/media/pegasus-large-logo.ccd2b412.png",
+    "static/media/turk-hava.60af067a.png": "/air-travel/static/media/turk-hava.60af067a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0f6156d.js",
+    "static/js/2.eb2d190f.chunk.js",
+    "static/css/main.aae008c3.chunk.css",
+    "static/js/main.86ce0557.chunk.js"
+  ]
+}
