@@ -1,8 +1,8 @@
 ## Air Travel (React.js)
 
-##https://alexeysparrow.github.io/air-travel/
+### https://alexeysparrow.github.io/air-travel/
 
-###В данном приложение реализовано:
+### В данном приложение реализовано:
 - выгрузка данных с локального .json
 - на основании данных сформирован список авиаперелетов
 - пагинация
