@@ -1,0 +1,17 @@
+@import "../../../../assets/scss/variables";
+
+.age {
+  text-transform: lowercase;
+}
+
+.price {
+  @include flex(column, center, flex-end);
+
+  span:first-child {
+    font-size: 25px;
+  }
+
+  span:last-child {
+    font-size: 12px;
+  }
+}

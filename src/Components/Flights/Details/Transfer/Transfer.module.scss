@@ -1,0 +1,15 @@
+@import "../../../../assets/scss/variables";
+
+.transfer {
+  @include size(90%, auto);
+  @include flex(row, flex-start, center);
+
+  padding: 0.5rem 1.5rem 0.3rem 1.5rem;
+
+  span {
+    @include size(40%, auto);
+
+    text-align: center;
+    color: $colorStringTransfer;
+  }
+}

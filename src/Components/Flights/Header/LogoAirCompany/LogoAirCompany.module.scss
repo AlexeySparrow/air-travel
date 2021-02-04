@@ -1,0 +1,11 @@
+@import "../../../../assets/scss/variables";
+
+.logo {
+  @include size(25%, 100%);
+
+  img {
+    @include size(100%, 100%);
+    object-fit: contain;
+    object-position: left;
+  }
+}

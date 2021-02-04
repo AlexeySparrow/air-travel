@@ -1,0 +1,40 @@
+@import "../../../assets/scss/variables";
+
+.container {
+  @extend %backgroundGloss;
+  @extend %filterBox;
+  @include size(80%, auto);
+
+  margin-bottom: 0.3rem;
+}
+
+.box {
+  @include flex(row, center, center);
+
+  div {
+    @include size(45%, auto);
+    @include flex(column, center, center);
+
+    &:not(:first-child) {
+      margin-left: 0.5rem;
+    }
+
+    label {
+      margin-bottom: 0.3rem;
+    }
+
+    input {
+      @include size(100%, auto);
+      text-align: center;
+      font-size: 16px;
+      padding: 0.15rem 0.3rem;
+      margin: 0 0.15rem;
+
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    }
+  }
+}

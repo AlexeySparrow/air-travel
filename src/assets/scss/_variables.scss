@@ -1,0 +1,55 @@
+//variables
+
+$backgroundSite: url('../img/background.png');
+$backgroundButtonShowMoreHover: rgba(255,255,255,0.3);
+$backgroundButtonChoose: rgba(249, 168, 37, 0.5);
+$backgroundButtonChooseHover: rgba(249, 168, 37, 0.8);
+$backgroundHeaderBox: rgba(25, 118, 210, 0.5);
+$colorDividingLineInBox: rgba(25, 118, 210, 0.5);
+$colorAbbreviationAndData: rgba(25, 118, 210, 0.8);
+$colorStringTransfer: rgba(249, 168, 37, 0.8);
+$colorScroll: rgba(25, 118, 210, 0.5);
+$colorScrollTrack: rgb(43,43,43);
+
+//templates
+
+%backgroundGloss {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(3.5px);
+  box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.5);
+  border-right: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+%filterBox {
+  overflow: hidden;
+
+  .title {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+    background: $backgroundHeaderBox;
+  }
+  .box {
+    padding: 0.4rem 1rem;
+  }
+}
+
+// mixins
+
+@mixin flex($flex-direction, $justify-content, $align-items) {
+  display: flex;
+  flex-direction: $flex-direction;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}
+
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}

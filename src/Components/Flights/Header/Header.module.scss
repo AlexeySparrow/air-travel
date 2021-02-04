@@ -1,0 +1,9 @@
+@import "../../../assets/scss/variables";
+
+.header {
+  @include size(100%, 50px);
+  @include flex(row, space-between, normal);
+
+  padding: 0.3rem 1rem;
+  background: $backgroundHeaderBox;
+}

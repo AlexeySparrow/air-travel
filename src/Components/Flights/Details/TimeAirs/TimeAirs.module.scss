@@ -1,0 +1,26 @@
+@import "../../../../assets/scss/variables";
+
+.timeAir {
+  @include size(100%, auto);
+  @include flex(row, space-between, center);
+
+  padding: 0 1.5rem;
+
+  div:first-child {
+    span {
+      margin-left: 0.3rem;
+    }
+  }
+
+  div:last-child {
+    span {
+      margin-right: 0.3rem;
+    }
+  }
+
+  span {
+    color: $colorAbbreviationAndData;
+    font-size: 15px;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,9 @@
+@import "../../../../assets/scss/variables";
+
+.company {
+  @include size(100%, auto);
+
+  font-size: 15px;
+  padding: 0 1.5rem;
+  margin-bottom: 0.5rem;
+}

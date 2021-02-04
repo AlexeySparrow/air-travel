@@ -1,0 +1,33 @@
+@import "../../../assets/scss/variables";
+
+.container {
+  @extend %backgroundGloss;
+  @extend %filterBox;
+  @include size(80%, auto);
+}
+
+.string {
+  @include flex(row, flex-start, center);
+
+  &:not(:last-child) {
+    margin-bottom: 0.3rem;
+  }
+
+  label {
+    @include size(60%, auto);
+    margin: 0 0.3rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  div {
+    @include size(35%, auto);
+    @include flex(row, space-between, normal);
+
+    span {
+      font-weight: normal;
+
+    }
+  }
+}

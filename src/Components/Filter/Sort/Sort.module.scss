@@ -1,0 +1,15 @@
+@import '../../../assets/scss/variables';
+
+.container {
+  @extend %backgroundGloss;
+  @extend %filterBox;
+  @include size(80%, auto);
+
+  margin-bottom: 0.3rem;
+}
+
+.box {
+  div:not(:first-child) {
+    margin-top: 0.3rem;
+  }
+}

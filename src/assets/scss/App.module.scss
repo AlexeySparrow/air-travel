@@ -1,0 +1,9 @@
+@import "variables";
+
+.container {
+  @include size(100%, auto);
+  @include flex(row, center, normal);
+
+  min-height: 100vh;
+  background: $backgroundSite;
+}

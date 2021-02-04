@@ -1,0 +1,22 @@
+@import "../../../assets/scss/variables";
+
+.legs {
+  @include flex(column, flex-start, center);
+
+  &:not(:last-child)::after {
+    @include size(100%, 2px);
+
+    content: '';
+    bottom: 0;
+    left: 0;
+    background: $colorDividingLineInBox;
+  }
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,25 @@
+@import "../../assets/scss/variables";
+
+.container {
+  @include size(100%, auto);
+  @include flex(row, center, center);
+
+  margin-bottom: 1rem;
+
+  button {
+    @include size(30%, 2rem);
+    @extend %backgroundGloss;
+
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    transition: 0.5s;
+
+    &:hover {
+      background: $backgroundButtonShowMoreHover;
+      border: 1px solid rgba(255,255,255,0.8);
+      border-right: 1px solid rgba(255,255,255,0.5);
+      border-bottom: 1px solid rgba(255,255,255,0.5);
+    }
+  }
+}
